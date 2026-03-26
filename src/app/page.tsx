@@ -29,7 +29,7 @@ export default function HomePage() {
           {/* Overlay oscuro para legibilidad del texto */}
           <div className="absolute inset-0 bg-black/55" />
 
-          <div className="container mx-auto px-4 max-w-7xl relative z-10 py-20">
+          <div className="container mx-auto px-4 max-w-7xl relative z-10 pt-20 pb-28 md:py-20">
             <div className="max-w-2xl">
               <Badge
                 variant="outline"
@@ -98,8 +98,8 @@ export default function HomePage() {
         {/* TRUST BAR */}
         <section className="border-y border-border bg-muted/30">
           <div className="container mx-auto px-4 max-w-7xl py-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-              <div className="flex items-center justify-center gap-3">
+            <div className="divide-y divide-border md:divide-y-0 grid grid-cols-1 md:grid-cols-3 md:gap-6 text-center">
+              <div className="flex items-center justify-center gap-3 py-4 md:py-0">
                 <ShieldCheck className="h-6 w-6 text-primary shrink-0" />
                 <div className="text-left">
                   <p className="font-semibold text-sm">100% Originales</p>
@@ -108,7 +108,7 @@ export default function HomePage() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center justify-center gap-3 py-4 md:py-0">
                 <Truck className="h-6 w-6 text-primary shrink-0" />
                 <div className="text-left">
                   <p className="font-semibold text-sm">Envíos a todo Chile</p>
@@ -117,10 +117,10 @@ export default function HomePage() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center justify-center gap-3 py-4 md:py-0">
                 <Star className="h-6 w-6 text-primary shrink-0" />
                 <div className="text-left">
-                  <p className="font-semibold text-sm">Más de 200 fragancias</p>
+                  <p className="font-semibold text-sm">Gran selección de fragancias</p>
                   <p className="text-xs text-muted-foreground">
                     Lujo europeo y exclusividad árabe
                   </p>

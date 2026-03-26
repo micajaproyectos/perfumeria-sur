@@ -173,7 +173,7 @@ export function ProductCard({ product, className, priority = false }: ProductCar
         </DialogTrigger>
 
         {/* Modal de detalle */}
-        <DialogContent className="max-w-md">
+        <DialogContent className="w-[calc(100vw-2rem)] max-w-md">
           <DialogHeader>
             <p className="text-xs text-muted-foreground uppercase tracking-widest">
               {product.brand.name}
