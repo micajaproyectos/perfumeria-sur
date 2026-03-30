@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import favicon from "./favicon.png";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +25,10 @@ export const metadata: Metadata = {
   description:
     "Descubre los mejores perfumes originales de lujo y árabes para hombre y mujer. Precios accesibles, envíos a todo Chile.",
   keywords: "perfumes, perfumería, lujo, árabes, originales, hombre, mujer",
+  icons: {
+    icon: [{ url: favicon.src, type: "image/png" }],
+    apple: [{ url: favicon.src, type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
