@@ -23,7 +23,7 @@ export function Navbar() {
       <div className="border-b border-white/10 text-cream py-2 px-4 text-center text-xs tracking-widest">
         <span className="flex items-center justify-center gap-2 text-cream/60">
           <Phone className="h-3 w-3" />
-          Consulta por WhatsApp · Envíos a todo Chile · Perfumes 100% originales
+          Futaleufú tienda física · Consulta por WhatsApp · Envíos a todo Chile · Perfumes 100% originales
         </span>
       </div>
 
