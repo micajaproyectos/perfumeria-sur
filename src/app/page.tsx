@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-import { ProductCard } from "@/components/products/product-card";
 import { bestsellerProducts } from "@/lib/mock-data";
+import { BestsellerCarousel } from "@/components/home/bestseller-carousel";
 
 export default function HomePage() {
   return (
@@ -147,11 +147,7 @@ export default function HomePage() {
               </Link>
             </Button>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-            {bestsellerProducts.slice(0, 8).map((product) => (
-              <ProductCard key={product.id} product={product} />
-            ))}
-          </div>
+          <BestsellerCarousel products={bestsellerProducts.slice(0, 8)} />
           <div className="text-center mt-8 sm:hidden">
             <Button asChild variant="outline">
               <Link href="/catalogo?sort=mas-vendidos">

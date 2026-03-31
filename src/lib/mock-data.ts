@@ -160,12 +160,12 @@ const realProducts: Product[] = [
   },
   {
     id: "r14", slug: "dg-light-blue-homme-toilette-100ml",
-    name: "Light Blue Pour Homme Toilette 100ml", brand: b("dolce-gabbana"),
-    price: 90990, gender: "hombre", category: "acuatico", priceRange: "lujo",
+    name: "Light Blue Pour Homme Toilette 100 ML", brand: b("dolce-gabbana"),
+    price: 59990, gender: "hombre", category: "acuatico", priceRange: "media",
     description: "La versión Toilette premium en tamaño generoso. Frescura mediterránea de larga duración.",
     notes: { top: ["Bergamota", "Pomelo", "Enebro"], heart: ["Pimienta", "Madera de Gaiac"], base: ["Almizcle", "Cedro"] },
     sizes: [100], images: ["https://http2.mlstatic.com/D_NQ_NP_2X_865360-MLA87291710285_072025-F.webp"],
-    isFeatured: false, isBestseller: false, isRecommended: false, isNew: false, stock: 8,
+    isFeatured: false, isBestseller: true, isRecommended: true, isNew: false, stock: 8,
   },
   {
     id: "r15", slug: "dg-light-blue-summer-vibes",
@@ -367,12 +367,12 @@ const realProducts: Product[] = [
   },
   {
     id: "r37", slug: "ralph-lauren-club-new-york",
-    name: "Ralph's Club New York EDP", brand: b("ralph-lauren"),
+    name: "Ralph's Club New York EDP 110 ML", brand: b("ralph-lauren"),
     price: 95000, gender: "hombre", category: "especiado", priceRange: "lujo",
     description: "El glamour de Nueva York. Una fragancia masculina sofisticada con iris y madera.",
     notes: { top: ["Bergamota", "Melocotón"], heart: ["Iris", "Lavanda"], base: ["Cedro", "Almizcle", "Vetiver"] },
     sizes: [110], images: ["https://cosmetic.cl/cdn/shop/files/Perfume-Ralph-S-Club-New-York-EDP-110-ml-Ralph-Lauren_600x.png?v=1761738045"],
-    isFeatured: true, isBestseller: false, isRecommended: true, isNew: false, stock: 10,
+    isFeatured: true, isBestseller: true, isRecommended: true, isNew: false, stock: 10,
   },
   {
     id: "r38", slug: "versace-dylan-turquoise",
@@ -385,12 +385,12 @@ const realProducts: Product[] = [
   },
   {
     id: "r39", slug: "vulcan-feu-french-avenue",
-    name: "Vulcan Feu EDP", brand: b("french-avenue"),
-    price: 44990, gender: "unisex", category: "especiado", priceRange: "media",
-    description: "Intenso y magnético. Una fragancia unisex de inspiración francesa con carácter volcánico.",
+    name: "Vulcan Feu French Avenue 100 ML", brand: b("french-avenue"),
+    price: 40990, gender: "hombre", category: "especiado", priceRange: "media",
+    description: "Intenso y magnético. Una fragancia masculina de inspiración francesa con carácter volcánico.",
     notes: { top: ["Bergamota", "Pimienta"], heart: ["Cuero", "Cedro"], base: ["Ámbar", "Almizcle", "Vetiver"] },
     sizes: [100], images: ["https://http2.mlstatic.com/D_NQ_NP_2X_615607-MLA103345029993_012026-F.webp"],
-    isFeatured: false, isBestseller: false, isRecommended: false, isNew: false, stock: 12,
+    isFeatured: false, isBestseller: true, isRecommended: true, isNew: false, stock: 12,
   },
   {
     id: "r40", slug: "ysl-libre-le-parfum",
