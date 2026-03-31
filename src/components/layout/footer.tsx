@@ -128,7 +128,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-2 text-xs text-cream/40">
-          <p>© 2025 Perfumería Sur. Todos los derechos reservados.</p>
+          <p>© 2026 Perfumería Sur. Todos los derechos reservados.</p>
           <p>Perfumes 100% originales · Envíos a todo Chile</p>
         </div>
       </div>
