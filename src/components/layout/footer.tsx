@@ -131,6 +131,20 @@ export function Footer() {
           <p>© 2026 Perfumería Sur. Todos los derechos reservados.</p>
           <p>Perfumes 100% originales · Envíos a todo Chile</p>
         </div>
+        <div className="mt-4 pt-4 border-t border-white/5 text-center text-xs text-cream/30">
+          Creado por{" "}
+          <span
+            style={{
+              background: "linear-gradient(135deg, #6366f1, #22d3ee)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
+          >
+            AM
+          </span>
+          <span style={{ color: "#e2e8f0" }}> Tecnología</span>
+        </div>
       </div>
     </footer>
   );
