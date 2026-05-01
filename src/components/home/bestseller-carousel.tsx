@@ -67,7 +67,7 @@ export function BestsellerCarousel({ products }: { products: Product[] }) {
 
       {products.length > 1 && (
         <div
-          className="mt-4 hidden items-center justify-center gap-2 md:flex"
+          className="mt-4 flex items-center justify-center gap-2"
           role="group"
           aria-label="Navegación del carrusel"
         >
